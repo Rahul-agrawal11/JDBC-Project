@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/banking_system";
     private static final String username = "root";
-    private static final String password = "#Rahul@7505";
+    private static final String password = "***********";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
@@ -102,4 +102,5 @@ public class BankingApp {
             e.printStackTrace();
         }
     }
+
 }
